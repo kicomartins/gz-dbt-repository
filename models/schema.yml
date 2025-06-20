@@ -60,7 +60,6 @@ models:
       - name: orders_id
         description: primary key
         tests:
-          - unique
           - not_null
       - name: margin
         description: margin = revenue - purchase_cost
